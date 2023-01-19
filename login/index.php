@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <?php
-        require "../common/header.php";
+        include_once "../common/header.php";
         echo getHeader("ログイン");
     ?>
     <body>

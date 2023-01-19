@@ -1,0 +1,15 @@
+{
+    "name": "leton1223/simple_memo-master",
+    "autoload": {
+        "psr-4": {
+            "Leton1223\\SimpleMemoMaster\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eleton428",
+            "email": "oikamisasi@gmail.com"
+        }
+    ],
+    "require": {}
+}
