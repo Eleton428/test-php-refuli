@@ -8,6 +8,8 @@ function getDatabaseConnection() {
     try
     {
         $database_handler = new PDO('mysql:localhost=db;dbname=simple_memo;charset=utf8mb4', 'root', 'password');
+        
+
     }
     catch (PDOException $e)
     {
