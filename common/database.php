@@ -1,16 +1,21 @@
-<?php 
-function dbConnect(){
-  $db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
-  $db['dbname'] = ltrim($db['path'], '/');
-  $dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
-  $user = $db['user'];
-  $password = $db['pass'];
-  $options = array(
-    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    PDO::MYSQL_ATTR_USE_BUFFERED_QUERY =>true,
-  );
-  $dbh = new PDO($dsn,$user,$password,$options);
-  return $dbh;
+<?php
+
+/**
+ * PDOを使ってデータベースに接続する
+ * @return PDO
+ */
+function getDatabaseConnection() {
+    try
+    {
+        $database_handler = new PDO('mysql:localhost=db;dbname=simple_memo;charset=utf8mb4', 'root', 'password');
+        mysql://b2c11c8490b6a5:5b6e2134@us-cdbr-east-06.cleardb.net/heroku_9dc1935c3b3c5b3?reconnect=true
+
+    }
+    catch (PDOException $e)
+    {
+        echo "DB接続に失敗しました。<br />";
+        echo $e->getMessage();
+        exit;
+    }
+    return $database_handler;
 }
-?>
