@@ -1,7 +1,6 @@
 ![SimpleMemo](https://raw.githubusercontent.com/wiki/YasuakiHirano/simple_memo/images/simple-memo.gif)
 ## simple memo  
 phpのみで作成したEvernote風メモアプリです。  
-nginx1.19.1 + php7.4-fpm + mysql5.7を使用しています。  
 
 ## 起動する  
 docker-composeを使って、下記のコマンドで起動できます。  
@@ -45,7 +44,3 @@ CREATE TABLE memos (
 );
 ```
 
-## 教材
-こちらで作り方や内容について解説しています。
-
-[PHPとLaravelでEvernote風のメモアプリを作ってみよう！](https://www.techpit.jp/courses/132)
