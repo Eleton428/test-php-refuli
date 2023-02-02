@@ -1,6 +1,6 @@
-![SimpleMemo](https://raw.githubusercontent.com/wiki/YasuakiHirano/simple_memo/images/simple-memo.gif)
-## simple memo  
-phpのみで作成したEvernote風メモアプリです。  
+
+## メモ帳アプリ
+phpで作成したEvernote風メモアプリです。  
 
 Techpitのプログラミング学習サイトで勉強しながら作成しました。
 
