@@ -1,6 +1,8 @@
 https://user-images.githubusercontent.com/81460172/216293483-2b0c124e-4e7d-4037-92ca-1c30d056576d.mp4
 ## メモ帳アプリ
 phpで作成したEvernote風メモアプリです。  
+ログイン用:
+(メールアドレス:testuser@gmail.com、パスワード:password)
 
 Techpitのプログラミング学習サイトで勉強しながら作成しました。
 
